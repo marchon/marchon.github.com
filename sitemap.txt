@@ -1,8 +1,18 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap
----
-{% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
-{% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+
+http://marchon.github.io/about.html
+http://marchon.github.io/pages/about.html
+http://marchon.github.io/archive.html
+http://marchon.github.io/atom.xml
+http://marchon.github.io/categories.html
+http://marchon.github.io/pages/about/index.html
+http://marchon.github.io/index.html
+http://marchon.github.io/theme-tom/manifest.yml
+http://marchon.github.io/pages.html
+http://marchon.github.io/rss.xml
+http://marchon.github.io/sitemap.txt
+http://marchon.github.io/tags.html
+
+http://marchon.github.io/2014/12/11/new-post
+http://marchon.github.io/msgq/nanomsg/ubuntu/linux/2014/12/11/marchon-Playing-With-NanoMsg
+http://marchon.github.io/2014/12/11/git-did-not-like-my-upload
+http://marchon.github.io/blogging/health/github/macbook/x-code/2014/12/10/marchon-I-figure-I-should-post-technical-ramblings-in-a-blog
